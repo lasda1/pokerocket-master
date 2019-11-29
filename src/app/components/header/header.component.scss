@@ -1,0 +1,79 @@
+
+.header-block-top
+{
+  padding: 10px;
+  align-items: left;
+  background-color: #101c44 ;
+  padding: 5px 0;
+}
+.header-block-top::after
+{
+  content: "";
+  display: block;
+  clear: both;
+}
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.row-stack {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+#header .header-nav
+{
+  margin-right: 0;
+  padding: 0;
+}
+.header-nav-main nav > ul#mainNav > li
+{
+  height: 72px;
+  padding-top: 16px;
+  margin-bottom: -1px;
+}
+.header-nav-main nav > ul#mainNav > li.active
+{
+  border-bottom: 4px solid #e33060;
+}
+#header .header-nav-main nav > ul > li > a {
+  font-weight: 500;
+}
+#header .header-social-icons {
+  margin-left: 0;
+  float: left;
+}
+#header .header-social-icons li a {
+  width: 24px;
+  height: 24px;
+  line-height: inherit;
+  padding-top: 1px;
+  background: #e33060;
+  color: #ffffff !important;
+  box-shadow: none;
+}
+#header .header-nav-top.top-menu
+{
+  float: right;
+  display: block !important;
+  margin-top: -1px;
+}
+#header .header-nav-top.top-menu .nav > li > a
+{
+  font-size: 12px;
+}
+.header-block-top
+.header-row
+{
+  display: block !important;
+}
+#header .header-nav-main nav > ul > li.dropdown.open > a:before, #header .header-nav-main nav > ul > li.dropdown:hover > a:before {
+  border-bottom: 0;
+}
+#header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
+  border-top: 3px solid #e33060;
+}
+#header .header-body {
+  position: fixed;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
